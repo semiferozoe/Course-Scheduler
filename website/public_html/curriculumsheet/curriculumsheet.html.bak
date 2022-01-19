@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>LaTech Course Scheduler</title>
+		<link rel="stylesheet" type="text/css" href="curriculumsheet.css" />
+		<link rel="icon" href="https://i.pinimg.com/originals/30/dc/20/30dc206bb841015ed02ed8a5c8e0f083.gif">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	</head>
+	
+    <body>
+		<div class="header">
+			<a href="#home" class="logo">Course Scheduler</a>
+			<div class="header-right">
+				<a href="../homepage.html">Home</a>
+				<a href="../specialdates/specialdates.html">Special Dates</a>
+				<a class="active" href="curriculumsheet.html">Curriculum Sheet</a>
+				<a href="../rateclasses/rateclasses.html">Rate Classes</a>
+				<a href="#howitworks">How it Works</a>
+				<a href="#about">About</a>
+			</div>
+		</div>
+
+		<div style="padding-left:20px">
+			<h1>Insert Curriculum Sheet Here</h1>
+			<p> Blah blah blah...
+		</div>
+    </body>
+	
+</html>
