@@ -10,7 +10,7 @@
 
     <body>
 			<div class="header">
-			<a href="homepage.html" class="logo" image=url("https://github.com/semiferozoe/Course-Scheduler/blob/main/website/public_html/images/logo.png?raw=true" z-index: -1 </a>
+			<a href="homepage.html" class="logo">Course Scheduler</a>
 			<div class="header-right">
 				<a class="active" href="homepage.html">Home</a>
 				<a href="specialdates/specialdates.html">Special Dates</a>
@@ -22,26 +22,24 @@
 		</div>
 
 		<div class="bgimg-1">
-  <div class="caption">
-  <span class="border">SCROLL DOWN</span>
-  </div>
+			<div class="bgimg-0">
+		</div>
 </div>
 
 <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-  <h3 style="text-align:center;">Helpful Tips For Using Website</h3>
+  <h3 style="text-align:center;">Helpful Tips for Using the Website</h3>
   <p>Text, images, and additional features that the user can use could go here.</p>
 </div>
 
 <div class="bgimg-2">
   <div class="caption">
-  <span class="border" style="background-color:transparent;font-size:25px;color: black;">Test</span>
+  <span class="border" style="background-color:transparent;font-size:25px;color: black;"></span>
   </div>
 </div>
 
-<div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-  <p>About Us as students</p>
-  </div>
+<div id="about" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">About Us</h3>
+  <p>This website and its tools were created by students, for students. Our goal is to help students achieve greatness by easing the process and stressfulness of selecting classes each semester. Traditionally, courses are difficult to find and line-up for the future. Now, it will be easy to know which classes you need to take, when to take them, and how close you are to graduating! </p>
 </div>
 
 <div class="bgimg-3">
@@ -50,10 +48,10 @@
   </div>
 </div>
 
-<div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-  <p>Maybe the About Us section where we describe who we are, why we chose to do this project, and how it can help many students.</p>
-  </div>
+
+<div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center; color:white">Contact Us!</h3>
+  <p>Email for questions, concerns, or feedback: ...@gmail.com</p>
 </div>
 
 

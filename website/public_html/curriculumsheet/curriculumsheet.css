@@ -34,7 +34,7 @@ body {
 }
 
 .header a.active {
-  background-color: dodgerblue;
+  background-color: #d2202f;
   color: white;
 }
 
