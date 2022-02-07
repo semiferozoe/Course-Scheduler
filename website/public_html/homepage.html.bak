@@ -2,16 +2,15 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>LaTech Course Scheduler</title>
+		<title>Course Scheduler</title>
 		<link rel="stylesheet" type="text/css" href="homepage.css" />
-		<link rel="icon" href="https://i.pinimg.com/originals/30/dc/20/30dc206bb841015ed02ed8a5c8e0f083.gif">
+		<link rel="icon" href="https://github.com/semiferozoe/Course-Scheduler/blob/main/website/public_html/images/logo.png?raw=true">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
 	</head>
 
     <body>
-		<div class="header">
-			<a href="homepage.html" class="logo">Course Scheduler</a>
+			<div class="header">
+			<a href="homepage.html" class="logo" image=url("https://github.com/semiferozoe/Course-Scheduler/blob/main/website/public_html/images/logo.png?raw=true" z-index: -1 </a>
 			<div class="header-right">
 				<a class="active" href="homepage.html">Home</a>
 				<a href="specialdates/specialdates.html">Special Dates</a>
@@ -22,11 +21,43 @@
 			</div>
 		</div>
 
-		<div style="padding-left:20px">
-			<h1>This is the homepage.</h1>
-			<p> Add scrolling background later :p
-		</div>
-    </body>
+		<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">SCROLL DOWN</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Helpful Tips For Using Website</h3>
+  <p>Text, images, and additional features that the user can use could go here.</p>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: black;">Test</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>About Us as students</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Maybe the About Us section where we describe who we are, why we chose to do this project, and how it can help many students.</p>
+  </div>
+</div>
+
+
+</body>
 	
 </html>
 
