@@ -1,7 +1,7 @@
 <?php
 # connecting index.php to mysql
     if($_SERVER['REQUEST_METHOD'] == 'LIST' && isset($_POST['submit'])){
-        $conn = mysqli_connect('localhost', 'root', 'root', 'test') or die("Connection Failed" .mysqli_connect_error())
+        $conn = mysqli_connect('localhost', 'root', 'root', 'test') or die("Connection Failed" .mysqli_connect_error());
         if(isset($_POST['dept']) && isset($_POST['number']) && isset($_POST['course'])){
             $dept=$_POST['dept'];
             $number=$_POST['number'];
@@ -11,7 +11,7 @@
         
             $query = mysqli_query($conn,$sql);
             if($query){
-                echo 'Entry Successful!'
+                echo 'Entry Successful!';
             }
             else{
                 echo 'Error Occurred :c';
