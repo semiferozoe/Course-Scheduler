@@ -1,0 +1,85 @@
+body  
+{  
+    margin: 100px;  
+    padding: 10px;  
+    background-image: url("https://github.com/semiferozoe/Course-Scheduler/blob/main/website/public_html/images/login.png?raw=true");
+	background-size: cover;
+    font-family: 'Copperplate';  
+}  
+
+.login{  
+        width: 382px;
+        overflow: hidden;  
+        margin: auto;   
+        padding: 20px;  
+        background: lightgray;  
+        border-radius: 15px ; 
+		text-align: center;
+          
+}  
+h2{  
+    text-align: center;
+	text-decoration: underline;
+    color: #d2202f;  
+    padding: 0px; 
+	margin: 0px;
+}  
+
+label{  
+    color: black;  
+    font-size: 17px; 
+	float: left;
+	margin-left: 35px;
+}  
+
+#email{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+} 
+ 
+#password{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;    
+}  
+
+#login{  
+    width: 150px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+}  
+
+#register{  
+    width: 150px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+}  
+
+#login{
+	
+}
+
+#register{
+
+}
+
+#login:hover {
+	background-color: gray;
+}
+
+#register:hover {
+	background-color: gray;
+}
+	
+

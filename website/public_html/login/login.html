@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Login </title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <form method="post">
+		<div class="login">
+				<img src="https://github.com/semiferozoe/Course-Scheduler/blob/main/website/public_html/images/logo.png?raw=true" alt="Michael Logo" width="60", height="50">
+
+		<br>
+		
+			<?php if(isset($_GET['error'])) { ?>
+			<p class="error"> <?php echo $_GET['error']; ?></p>
+			<?php } ?>
+			
+			<label><b>Email</label>
+			<br><br>
+			<input type="email" name="email" id="email" placeholder="School Email">
+			<br><br>
+			<label><b>Password</label>
+			<br><br>
+			<input type="password" name="password" id="password" placeholder="Password">
+			<br><br><br>
+			
+			<button type="login" name="login" id="login">Sign In</button>
+			<br><br>
+			<button type="register" name="register" id="register">Sign Up</button>
+
+			
+			
+		</div>
+    </form>
+</body>
